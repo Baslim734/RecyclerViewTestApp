@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         numberList.setHasFixedSize(true);
 
-        numbersAdapter = new NumbersAdapter(100);
+        numbersAdapter = new NumbersAdapter(100, this);
         numberList.setAdapter(numbersAdapter);
     }
 }
